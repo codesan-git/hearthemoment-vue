@@ -22,14 +22,6 @@ setInterval(changeUnderlineColor, 2000)
       </h1>
       <button>Learn more about us</button>
     </div>
-    <!-- <div class="marquee">
-      <div class="track">
-        <div>
-          &#x2022; hearthemoment &#x2022; その瞬間を聴 &#x2022; höre den moment &#x2022; استمع
-          لللحظة &#x2022; Écoutez le moment &#x2022; Escucha el momento
-        </div>
-      </div>
-    </div> -->
     <section class="marquee">
       <h1>
         &#x2022; hearthemoment &#x2022; その瞬間を聴 &#x2022; höre den moment &#x2022; استمع لللحظة
@@ -125,32 +117,6 @@ button:hover {
   transition: 0.5s ease-in-out;
   letter-spacing: -1px;
 }
-/* .marquee {
-  position: absolute;
-  width: 100vw;
-  height: 60px;
-  overflow: hidden;
-  bottom: 0px;
-  font-size: 42px;
-  background-color: #ff6b6b;
-}
-
-.track {
-  display: flex;
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee 5s infinite linear;
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-} */
 .marquee {
   display: flex;
   justify-content: flex-start;
@@ -158,7 +124,6 @@ button:hover {
   overflow: hidden;
   position: fixed;
   bottom: 0px;
-  /* height: 60px; */
 }
 
 .marquee h1 {

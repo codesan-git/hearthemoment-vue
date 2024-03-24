@@ -40,10 +40,9 @@ main {
 }
 .background-img {
   height: 100%;
-  background-image: url('../src/assets/images/ramos.png');
-  background-repeat: no-repeat;
-  background-position: 40% 50%;
+  background: url('../src/assets/images/ramos.png') no-repeat;
   background-size: contain;
+  background-position: 40% 50%;
   position: relative;
 }
 .first-content {

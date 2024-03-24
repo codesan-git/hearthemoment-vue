@@ -1,4 +1,4 @@
-<script setup lang="ts"></script>
+<!-- <script setup lang="ts"></script>
 
 <template>
   <main>
@@ -104,4 +104,13 @@ main {
 .first-content section button:hover svg {
   right: 0px;
 }
-</style>
+</style> -->
+
+<script setup lang="ts"></script>
+<template>
+  <div>
+    <RouterView />
+  </div>
+</template>
+
+<style scoped></style>
